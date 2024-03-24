@@ -1,0 +1,20 @@
+Report 
+
+Task Overview : The task was to compare two machine learning model, an Artifical Neural Network(ANN) and Logistic Regression for classifying iris flower species based on the sepal length, sepal width, petal length, petal width. The flower species to be predicted are Iris Setosa, Iris Versicolor, Iris Virginica.
+
+Key Findings:
+
+ANN MODEL : It has two hidden layer, each having six neurons was constructed using tensorflow.
+The output layer utilized a softmax activation function suitable for multiclassification task.
+The model was compiled with adam optimizier and sparse categorical crossentropy loss function
+
+Logistic Regression : In this training and testing dataset in split into 75-25 split ratio.
+Feature scaling is done using StandardScaler to ensure consistency and comparability across different features.
+
+Comparison of Models :
+The ANN model showed higher accuracy compared to Logistic Regression indicating its superior peroformance in this classification task.
+Logistic Regresssion tend to perform well on simpler dataset but the ANN's ability to capture complex patterns and relationship in the data likely constributed to its better performance in this case.
+
+Conclusion :
+ Based on the results ANN outperformed Logistic Regression in classifying iris flower species.The ANN's ability to handle non linear relationship abd complex pattern help in its higher accuracy.Further optimization and fine tuning of the ANN architecture could potentially enchance its peroformance even further.
+ The Logistic Regression has advantage because of its simplicity and transparency make it valuable tool for understanding the impact of individual feature on the target feature.But its s predictive performance may be inferior to more sophisticated models like ANNs, particularly in datasets with intricate patterns or interactions.
